@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80">
+  <defs>
+    <linearGradient id="topFace2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8520A;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="leftFace2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1A1A1A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D2D2D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rightFace2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3D3D3D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#555555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Cube icon -->
+  <polygon points="40,8 68,24 40,40 12,24" fill="url(#topFace2)"/>
+  <polygon points="12,24 40,40 40,68 12,52" fill="url(#leftFace2)"/>
+  <polygon points="68,24 40,40 40,68 68,52" fill="url(#rightFace2)"/>
+  <circle cx="40" cy="40" r="3" fill="white" opacity="0.9"/>
+  <!-- Divider line -->
+  <line x1="88" y1="16" x2="88" y2="64" stroke="#FF6B1A" stroke-width="1.5" opacity="0.6"/>
+  <!-- IDR bold acronym -->
+  <text x="100" y="38" font-family="'Georgia', serif" font-size="26" font-weight="700" fill="#1A1A1A" letter-spacing="3">IDR</text>
+  <!-- Full name -->
+  <text x="100" y="57" font-family="'Georgia', serif" font-size="10.5" fill="#555555" letter-spacing="1.8">INSTITUTE OF DIGITAL RISK</text>
+</svg>
